@@ -83,7 +83,7 @@ const ContentCashback = () => {
 
          <div className={styles.frameQuestions}>
             <button className={styles.questionsTab}>
-               How to become a part of the VIP Club?
+               <p>How to become a part of the VIP Club?</p>
                <div className={styles.questionsTabArrow}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none">
                      <path d="M1.1368 2.3493C0.821068 2.01778 0.821068 1.48222 1.1368 1.1507C1.45515 0.816432 1.97342 0.816432 2.29178 1.1507L6 5.04434L9.70823 1.1507C10.0266 0.816432 10.5448 0.816432 10.8632 1.1507C11.1789 1.48222 11.1789 2.01778 10.8632 2.3493L6.57749 6.8493C6.25914 7.18357 5.74086 7.18357 5.42251 6.8493L1.1368 2.3493Z" fill="#9CA3BD" stroke="#9CA3BD" strokeWidth="0.2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -91,7 +91,7 @@ const ContentCashback = () => {
                </div>
             </button>
             <button className={styles.questionsTab}>
-               I am a member and I haven’t received any bonus yet. Why? When are they sent to the users and how often?
+               <p>I am a member and I haven’t received any bonus yet. Why? When are they sent to the users and how often?</p>
                <div className={styles.questionsTabArrow}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none">
                      <path d="M1.1368 2.3493C0.821068 2.01778 0.821068 1.48222 1.1368 1.1507C1.45515 0.816432 1.97342 0.816432 2.29178 1.1507L6 5.04434L9.70823 1.1507C10.0266 0.816432 10.5448 0.816432 10.8632 1.1507C11.1789 1.48222 11.1789 2.01778 10.8632 2.3493L6.57749 6.8493C6.25914 7.18357 5.74086 7.18357 5.42251 6.8493L1.1368 2.3493Z" fill="#9CA3BD" stroke="#9CA3BD" strokeWidth="0.2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -99,7 +99,7 @@ const ContentCashback = () => {
                </div>
             </button>
             <button className={styles.questionsTab}>
-               I want to become a part of the VIP Club, but I haven’t reached Rank 13. What should I do?
+            <p>I want to become a part of the VIP Club, but I haven’t reached Rank 13. What should I do?</p>
                <div className={styles.questionsTabArrow}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none">
                      <path d="M1.1368 2.3493C0.821068 2.01778 0.821068 1.48222 1.1368 1.1507C1.45515 0.816432 1.97342 0.816432 2.29178 1.1507L6 5.04434L9.70823 1.1507C10.0266 0.816432 10.5448 0.816432 10.8632 1.1507C11.1789 1.48222 11.1789 2.01778 10.8632 2.3493L6.57749 6.8493C6.25914 7.18357 5.74086 7.18357 5.42251 6.8493L1.1368 2.3493Z" fill="#9CA3BD" stroke="#9CA3BD" strokeWidth="0.2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -107,7 +107,7 @@ const ContentCashback = () => {
                </div>
             </button>
             <button className={styles.questionsTab}>
-               What does affect the weekly/monthly bonus?
+            <p>What does affect the weekly/monthly bonus?</p>
                <div className={styles.questionsTabArrow}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none">
                      <path d="M1.1368 2.3493C0.821068 2.01778 0.821068 1.48222 1.1368 1.1507C1.45515 0.816432 1.97342 0.816432 2.29178 1.1507L6 5.04434L9.70823 1.1507C10.0266 0.816432 10.5448 0.816432 10.8632 1.1507C11.1789 1.48222 11.1789 2.01778 10.8632 2.3493L6.57749 6.8493C6.25914 7.18357 5.74086 7.18357 5.42251 6.8493L1.1368 2.3493Z" fill="#9CA3BD" stroke="#9CA3BD" strokeWidth="0.2" strokeLinecap="round" strokeLinejoin="round"/>

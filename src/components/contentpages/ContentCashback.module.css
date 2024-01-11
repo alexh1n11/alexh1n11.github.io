@@ -870,6 +870,9 @@
         font-weight: 600;
         line-height: 20px; /* 125% */
     }
+    .questionsTab p{
+        width: 310px
+    }
     .questionsTabArrow{
         fill: #9CA3BD;
         stroke-width: 0.2px;

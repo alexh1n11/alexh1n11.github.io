@@ -14,9 +14,6 @@ const Chat = ({handleWidgetCollapse,rootWidth}) => {
       };
 
     const [collapseVisible, setCollapseVisible] = useState(true);
-    const handleCollapseVisible = () => {
-
-    };
 
     useEffect(() => {
         const handleResize1440 = () => {
@@ -36,7 +33,7 @@ const Chat = ({handleWidgetCollapse,rootWidth}) => {
         return () => {
           window.removeEventListener('resize', handleResize1440);
         };
-      }, [rootWidth,isButtonClicked]);
+      }, [rootWidth]);
     return (
         <>
             <div className={isButtonClicked ? styles.chatCollapsed : styles.chat}>
