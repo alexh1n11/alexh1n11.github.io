@@ -7,7 +7,7 @@ import Header from '../../ui/frames/header/Header';
 import Footer from '../../ui/frames/footer/Footer';
 import ContentHome from '../contentpages/ContentHome';
 import ContentCashback from '../contentpages/ContentCashback';
-import RegisterPopUp from './registerPopUp';
+import RegisterPopUp from './RegisterPopUp';
 import LoginPopUp from './LoginPopUp'
 
 const Page = ({rootWidth}) => {
