@@ -1,0 +1,880 @@
+.cashback{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 1220px;
+}
+
+.bgFrame{
+    width: 100%;
+    height: 440px;
+    background-image: url('/sharecontent/bg.png');
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.bgFrameContent{
+    position: absolute;
+    left:40px;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 520px;
+    height: 440px;
+    color: #F5F8FF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%; /* 56px */
+    text-transform: uppercase;
+}
+.bgFrameContentText{
+    margin-bottom: 10px;
+}
+.bgFrameContentText2{
+    background: radial-gradient(1321.39% 408.75% at 26.25% -172.73%, #DD77FC 0%, #BE7CFC 26.04%, #9464FC 77.08%, #7D3ED2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.panel{
+    position: relative;
+    display: flex;
+    width: 520px;
+    height: 96px;
+    border-radius: 20px;
+    border-top: 2px solid rgba(49, 57, 81, 0.10);
+    background: rgba(19, 25, 39, 0.72);
+}
+.paneltext1{
+    position: absolute;
+    left: 126px;
+    top: 20px;
+    color: #FFF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.paneltext2{
+    position: absolute;
+    left: 126px;
+    top: 56px;
+    color: #9CA3BD;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 153.846% */
+    text-transform: capitalize;
+}
+.panelimg{
+    position: relative;
+    left: 25px;
+    top: 5px;
+    width: 60px;
+    height: 68px;
+    transform: rotate(-15deg);
+    background: rgba(255, 255, 255, 0);
+    
+
+}
+.panelimgShadow{
+    position: absolute;
+    top:30px;
+    left: 35px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 
+        0px 0px 160px rgba(81, 94, 209, 0.40),
+        0px 0px 120px rgba(77, 61, 176, 0.40),
+        0px 0px 35px rgba(255, 255, 255, 0.10);
+}
+
+.frameInfo{
+    width: 100%;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #FFF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%; /* 56px */
+    
+    
+}
+.info1{
+    text-transform: uppercase;
+}
+.info2{
+    width: 642px;
+    color: #9CA3BD;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+}
+
+.cardRow{
+    width: 100%;
+    height: 281px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-end; 
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.card {
+    position: relative;
+    width: 396px; 
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.card::before {
+    content: ''; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('/cashback/cardbg.png'); 
+    background-size: contain; 
+    background-position: bottom left; 
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.card2{
+    position: relative;
+    width: 380px; 
+    height: 100%;
+    overflow: hidden;
+}
+
+.card2::before {
+    content: ''; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('/cashback/card2bg.png'); 
+    background-size: contain; 
+    background-position: bottom left; 
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.cardEnjoy{
+    width: 191px;
+    height: 155px;
+    rotate: -16deg;
+    position: absolute; 
+    left:81px; 
+    bottom: 101px;
+    background-image: url("/cashback/card1.png");
+    background-size: 100% 100%;
+}
+.cardReceive{
+    width: 98px;
+    height: 108px;
+    position: absolute; 
+    left:142px; 
+    bottom: 140px;
+    background-image: url("/cashback/card2.png");
+    background-size: 100% 100%;
+}
+.cardWidthdraw{
+    width: 206px;
+    height: 123px;
+    position: absolute; 
+    left:84px; 
+    bottom: 144px;
+    background-image: url("/cashback/card3.png");
+    background-size: 100% 100%;
+}
+
+.cardtext11{
+    position: absolute;
+    left: 97px;
+    bottom: 72px;
+    color: #FFF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; /* 200% */
+    text-transform: uppercase;
+}
+.cardtext12{
+    position: absolute;
+    left: 51px;
+    bottom: 32px;
+    font-family: 'Rubik', sans-serif;
+    color: #9CA3BD;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 20.8px */
+    width: 278px;
+}
+.cardtext21{
+    position: absolute;
+    left: 97px;
+    bottom: 72px;
+    color: #FFF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; /* 200% */
+    text-transform: uppercase;
+}
+.cardtext22{
+    position: absolute;
+    left: 38px;
+    bottom: 32px;
+    font-family: 'Rubik', sans-serif;
+    color: #9CA3BD;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 20.8px */
+    width: 305px;
+}
+.cardtext31{
+    position: absolute;
+    left: 52px;
+    bottom: 72px;
+    color: #FFF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; /* 200% */
+    text-transform: uppercase;
+}
+
+.cardtext32{
+    position: absolute;
+    left: 30px;
+    bottom: 32px;
+    font-family: 'Rubik', sans-serif;
+    color: #9CA3BD;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 20.8px */
+    width: 321px;
+}
+
+.playButton{
+    width: 200px;
+    height: 52px;
+    border-radius: 40px;
+    background: radial-gradient(155.2% 155.87% at 31.94% -11.82%, #9186FF 0%, #6D61FF 33.87%, #574AFF 91.62%);
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.02), 0px 2px 44px 0px rgba(81, 60, 207, 0.84);
+    color: #F5F8FF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+}
+
+.cashbackForRank{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.cashbackForRankInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 962px;
+    height: 128px;
+    margin-bottom: 30px;
+}
+.ForRankInfo1{
+    color: #FFF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%; /* 56px */
+    text-transform: uppercase;
+}
+.ForRankInfoSpan{
+    background: radial-gradient(1321.39% 408.75% at 26.25% -172.73%, #DD77FC 0%, #BE7CFC 26.04%, #9464FC 77.08%, #7D3ED2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ForRankInfo2{
+    color: #9CA3BD;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+}
+.cashbackTableRow{
+    width: 1220px;
+    height: 240px;
+    display: flex;
+    gap: 30px;
+}
+.cashbackTableElemImg{
+    width: 60px;
+    height: 56px;
+    background-image: url("/cashback/elemimg.png");
+    background-size: 100% 100%;
+}
+.cashbackTableElem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 240px;
+    z-index: 0;
+}
+.cashbackTableElem::before {
+    content: ''; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('/cashback/elembg.png'); 
+    background-size: contain; 
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.elemText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.elemText1{
+    color: #FFF;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 200% */
+    text-transform: uppercase;
+}
+.elemText2{
+    text-align: center;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px; /* 184.615% */
+    text-transform: uppercase;
+    background: radial-gradient(1321.39% 408.75% at 26.25% -172.73%, #DD77FC 0%, #BE7CFC 26.04%, #9464FC 77.08%, #7D3ED2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.frameQuestions{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%; 
+}
+.questionsTab{
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: space-between;
+    width: 100%;
+    height: 68px;
+    filter: drop-shadow(0px 0px 24px rgba(59, 88, 231, 0.08));
+    border-radius: 40px;
+    background: linear-gradient(90deg, #27164C 0%, #11193C 51.56%, #0F2139 100%);
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+}
+.questionsTabArrow{
+    fill: #9CA3BD;
+    stroke-width: 0.2px;
+    stroke: #9CA3BD;
+}
+
+@media (max-width: 390px) {
+    .cashback{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 350px;
+    }
+    .bgFrame{
+        width: 100%;
+        height: 630px;
+        background-image: url('/sharecontent/bgmobile.png');
+        background-repeat: no-repeat;
+        z-index: 0;
+    }
+    .bgFrameContent{
+        position: static;
+        left:0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        width: 350px;
+        height: 630px;
+        color: #F5F8FF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 140%; /* 56px */
+        text-transform: uppercase;
+    }
+    .bgFrameContentText{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 192px;
+    }
+    .panel{
+        position: relative;
+        display: flex;
+        width: 350px;
+        height: 100px;
+        border-radius: 20px;
+        border-top: 2px solid rgba(49, 57, 81, 0.10);
+        background: rgba(19, 25, 39, 0.72);
+    }
+    .paneltext1{
+        position: absolute;
+        left: 92px;
+        top: 16px;
+        color: #FFF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    
+    .paneltext2{
+        position: absolute;
+        left: 92px;
+        top: 44px;
+        color: #9CA3BD;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 153.846% */
+        text-transform: capitalize;
+    }
+    .panelimg{
+        position: absolute;
+        left: 15px;
+        top: 10px;
+        width: 52px;
+        height: 58px;
+        transform: rotate(-15deg);
+        background: transparent; 
+        
+    }
+    .panelimgShadow{
+        position: absolute;
+        top:28px;
+        left: 20px;
+        width: 35px;
+        height: 35px;
+        box-shadow: 
+            0px 0px 160px rgba(81, 94, 209, 0.40),
+            0px 0px 120px rgba(77, 61, 176, 0.40),
+            0px 0px 35px rgba(255, 255, 255, 0.10);
+    }
+    .frameInfo{
+        width: 100%;
+        height: 1090px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: #FFF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 140%; /* 56px */ 
+    }
+    .info1{
+        text-transform: uppercase;
+    }
+    .info2{
+        width: 100%;
+        color: #9CA3BD;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+    }
+
+    .cardRow{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-end; 
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    .card {
+        position: relative;
+        width: 100%; 
+        height: 278px;
+        z-index: 0;
+    }
+    .card::before {
+        content: ''; 
+        position: absolute; 
+        bottom: 0;
+        width: 100%; 
+        height: 217px; 
+        background-image: url('/cashback/cardbgmobile.png'); 
+        background-size: contain; 
+        background-position: bottom; 
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    .card2{
+        position: relative;
+        width: 100%; 
+        height: 278px;
+        overflow: hidden;
+    }
+    
+    .card2::before {
+        content: ''; 
+        position: absolute; 
+        bottom: 0;
+        width: 100%; 
+        height: 217px; 
+        background-image: url('/cashback/cardbgmobile.png'); 
+        background-size: 100% 100%; 
+        background-position: bottom left; 
+        background-repeat: no-repeat;
+        z-index: 0;
+    }
+    .cardEnjoy{
+        width: 159px;
+        height: 128px;
+        rotate: -16deg;
+        position: absolute; 
+        left:81px; 
+        bottom: 129px;
+        background-image: url("/cashback/card1.png");
+        background-size: 100% 100%;
+    }
+    .cardReceive{
+        width: 98px;
+        height: 108px;
+        position: absolute; 
+        left:125px; 
+        bottom: 141px;
+        background-image: url("/cashback/card2.png");
+        background-size: 100% 100%;
+    }
+    .cardWidthdraw{
+        width: 205px;
+        height: 125px;
+        position: absolute; 
+        left:84px; 
+        bottom: 132px;
+        background-image: url("/cashback/card3.png");
+        background-size: 100% 100%;
+    }
+    
+    .cardtext11{
+        position: absolute;
+        left: 82px;
+        bottom: 72px;
+        color: #FFF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px; /* 200% */
+        text-transform: uppercase;
+    }
+    
+    .cardtext12{
+        position: absolute;
+        left: 34px;
+        bottom: 29px;
+        font-family: 'Rubik', sans-serif;
+        color: #9CA3BD;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 20.8px */
+        width: 278px;
+    }
+    .cardtext21{
+        position: absolute;
+        left: 81px;
+        bottom: 73px;
+        color: #FFF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px; /* 200% */
+        text-transform: uppercase;
+    }
+    
+    .cardtext22{
+        position: absolute;
+        left: 13px;
+        bottom: 29px;
+        font-family: 'Rubik', sans-serif;
+        color: #9CA3BD;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 20.8px */
+        width: 325px;
+    }
+    .cardtext31{
+        position: absolute;
+        left: 37px;
+        bottom: 73px;
+        color: #FFF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px; /* 200% */
+        text-transform: uppercase;
+    }
+    
+    .cardtext32{
+        position: absolute;
+        left: 13px;
+        bottom: 29px;
+        font-family: 'Rubik', sans-serif;
+        color: #9CA3BD;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 20.8px */
+        width: 325px;
+    }
+    .playButton{
+        width: 200px;
+        height: 72px;
+        border-radius: 40px;
+        background: radial-gradient(155.2% 155.87% at 31.94% -11.82%, #9186FF 0%, #6D61FF 33.87%, #574AFF 91.62%);
+        box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.02), 0px 2px 44px 0px rgba(81, 60, 207, 0.84);
+        color: #F5F8FF;
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 125% */
+    }
+    .cashbackForRank{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+    }
+    .cashbackForRankInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: 132px;
+        margin-bottom: 20px;
+    }
+    .ForRankInfo1{
+        color: #FFF;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 140%; /* 56px */
+        text-transform: uppercase;
+    }
+    .ForRankInfoSpan{
+        background: radial-gradient(1321.39% 408.75% at 26.25% -172.73%, #DD77FC 0%, #BE7CFC 26.04%, #9464FC 77.08%, #7D3ED2 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .ForRankInfo2{
+        color: #9CA3BD;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+    }
+    .cashbackTableRow{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        gap: 20px;
+    }
+    .cashbackTableElem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        overflow: hidden;
+        width: 165px;
+        height: 200px;
+        z-index: 0;
+    }
+    .cashbackTableElem::before {
+        content: ''; 
+        position: absolute; 
+        width: 100%; 
+        height: 100%; 
+        background-image: url('/cashback/elembgnobile.png'); 
+        background-size: contain; 
+        background-position: bottom; 
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    .cashbackTableElemImg{
+        width: 60px;
+        height: 56px;
+        background-image: url("/cashback/elemimg.png");
+        background-size: 100% 100%;
+    }
+    .elemText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .elemText1{
+        color: #FFF;
+        text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 200% */
+        text-transform: uppercase;
+    }
+    .elemText2{
+        text-align: center;
+        text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px; /* 184.615% */
+        text-transform: uppercase;
+        background: radial-gradient(1321.39% 408.75% at 26.25% -172.73%, #DD77FC 0%, #BE7CFC 26.04%, #9464FC 77.08%, #7D3ED2 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .frameQuestions{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .questionsTab{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+        filter: drop-shadow(0px 0px 24px rgba(59, 88, 231, 0.08));
+        border-radius: 40px;
+        background: linear-gradient(90deg, #27164C 0%, #11193C 51.56%, #0F2139 100%);
+        color: #FFF;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 125% */
+    }
+    .questionsTabArrow{
+        fill: #9CA3BD;
+        stroke-width: 0.2px;
+        stroke: #9CA3BD;
+    }
+    
+
+}

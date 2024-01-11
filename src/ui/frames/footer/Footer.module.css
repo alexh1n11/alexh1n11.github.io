@@ -1,0 +1,129 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.top{
+    display: flex;
+    height: 187px;
+    justify-content: space-around;
+    color:#FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+
+}
+
+.betsStorm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #F5F8FF;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 0.27px;
+    text-transform: uppercase;
+    width: 326px;
+}
+.betsStormText{
+    color: #576081;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: none;
+    margin-left: 6px;
+}
+
+.menu{
+    display: flex;
+    width: 482px;
+    gap: 91px;
+    justify-content: space-between;
+    color: #576081;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.menuPart{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.info{
+    display: flex;
+    width: 234px;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.payments{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.04);
+    border-top: 2px solid rgba(255, 255, 255, 0.04);
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+.bottom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 60.75px;
+    height: 121px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.bottomElem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    gap: 7px;
+    background: #17182B;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #576081;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px;
+}
+
+@media (max-width: 390px) {
+    .footer{
+      display: none;
+      width: 0px;
+    }
+  }

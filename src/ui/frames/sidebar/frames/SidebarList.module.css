@@ -1,0 +1,28 @@
+.sidebarListCasino{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebarListCasinoCollapsed{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    gap: 20px;
+    
+}
+
+.sidebarListSports{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebarListSportsCollapsed{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    gap: 20px;
+}

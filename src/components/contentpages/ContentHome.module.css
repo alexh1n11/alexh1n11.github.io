@@ -1,0 +1,122 @@
+.home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1220px;
+}
+
+.bgFrame{
+    position: absolute;
+    width: 100%;
+    height: 492px;
+    background-image: url('/sharecontent/bg.png');
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.bgFrameContent{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 442px;
+    color: #F5F8FF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%; /* 56px */
+    text-transform: uppercase;
+}
+
+.bgFrameContentText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.bgFrameButton{
+    display: flex;
+    padding: 16px 59px;
+    font-size: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 800;
+    border-radius: 40px;
+    background: var(--1, radial-gradient(155.2% 155.87% at 31.94% -11.82%, #9186FF 0%, #6D61FF 33.87%, #574AFF 91.62%));
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.02);
+}
+
+.banners{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    margin-top: 454px;
+    z-index: 1;
+    color: #F5F8FF;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%; /* 56px */
+    text-transform: uppercase;
+}
+
+.bannersButtons{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.bannersButtonsElement{
+    position: relative;
+    width: 290px;
+    height: 100px;
+    border-radius: 20px;
+    background: var(--1, radial-gradient(155.2% 155.87% at 31.94% -11.82%, #9186FF 0%, #6D61FF 33.87%, #574AFF 91.62%));
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.02);
+}
+
+.bannersButtonsElement2{
+    position: relative;
+    width: 290px;
+    height: 100px;
+    border-radius: 20px;
+    background: radial-gradient(201.13% 173.83% at 47.75% -56.25%, #DD77FC 0%, #BE7CFC 26.04%, #9464FC 77.08%, #7D3ED2 100%);
+    box-shadow: 4px 0px 24px 0px rgba(169, 81, 195, 0.24);
+}
+
+.bannersCrypto{
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    color: #576081;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 100% */
+    text-transform: capitalize;
+}
+
+
+.cashback{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1220px;
+}
+
+

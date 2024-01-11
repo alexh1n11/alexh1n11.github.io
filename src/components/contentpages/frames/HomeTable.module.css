@@ -1,0 +1,75 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+    color: #576081;
+    text-shadow: 1px 2px 20px rgba(0, 0, 0, 0.30);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.tableContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 440px;
+    overflow-y: scroll;
+    color: #576081;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 200% */
+}
+
+.tableContent::-webkit-scrollbar {
+    width: 2px;
+    background-color: black;
+}
+  
+
+.tableContent::-webkit-scrollbar-thumb {
+    background-color: rgb(51, 42, 42);
+}
+  
+
+.tableContent::-webkit-scrollbar-track {
+    background-color: black;
+}
+.tableElem1{
+    flex-shrink: 0;
+    padding-left: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(49, 57, 81, 0.20);
+    background: #131927;
+}
+.tableElem2{
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+}
+.tableElem3{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(49, 57, 81, 0.20);
+    background: #131927;
+}
