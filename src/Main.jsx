@@ -16,9 +16,7 @@ const Main = () => {
   }, []);
 
   return (
-    <React.StrictMode>
-      <Router rootWidth={rootWidth} />
-    </React.StrictMode>
+    <Router rootWidth={rootWidth} />
   );
 };
 
